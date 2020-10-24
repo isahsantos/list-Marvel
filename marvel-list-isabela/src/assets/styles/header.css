@@ -6,4 +6,5 @@
 .marvel-logo {
     width: 240px;
     height: 95px;
+    align-content: flex-start;
 }
