@@ -2,7 +2,7 @@
   text-align: center;
   background-color: #f4f8fb;
 }
-
+body { overflow-x: hidden; }
 .App-logo {
   height: 40vmin;
   pointer-events: none;

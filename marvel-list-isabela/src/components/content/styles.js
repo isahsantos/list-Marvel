@@ -1,23 +1,23 @@
 import { makeStyles } from "@material-ui/core/styles";
 
-export const useStyles = makeStyles({
+export const useStyles = makeStyles((theme)=>({
   root: {
-    minWidth: 275,
-    width: "auto",
-    height: "1040px",
-    borderRadius: "8px",
-    boxShadow: "0 2px 6px 0 rgba(69, 91, 99, 0.08)",
-    backgroundColor: "ffffff",
+    flexGrow: 1,
   },
-  bullet: {
-    display: "inline-block",
-    margin: "0 2px",
-    transform: "scale(0.8)",
+  paper: {
+    padding: theme.spacing(2),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+    height:'955px',
+    marginLeft:'69px',
+    marginRight:'53px',
+    marginBottom:'60px'
   },
-  title: {
-    fontSize: 14,
-  },
-  pos: {
-    marginBottom: 12,
-  },
-});
+  text:{
+      width: '431px',
+      height: '58px',
+      color: 'red',
+      fontSize:''
+    
+  }
+}));
